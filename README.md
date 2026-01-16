@@ -43,8 +43,9 @@ This repository serves as an entry point to the MolecularIQ ecosystem, covering 
 
 | Repository | Purpose | 
 |------------|---------|
-|<span style="color:green">**moleculariq**</span>| Current repo, overview over different MolecularIQ code bases|
-| **[moleculariq-leaderboard](https://github.com/ml-jku/moleculariq-leaderboard)** | Leaderboard: HuggingFace space, displays results, handles submissions | 
+|📍 **[moleculariq](#moleculariq)** | Current repo, overview over different MolecularIQ code bases|
+| **[moleculariq-leaderboard](https://github.com/ml-jku/moleculariq-leaderboard)** | Leaderboard: HuggingFace space, displays results, handles submissions |
+| **[moleculariq-core](https://github.com/ml-jku/moleculariq-core)** | Shared library providing core functionality, e.g. symbolic verifiers and question formatting | 
 | **[moleculariq-benchmark](https://github.com/ml-jku/moleculariq-benchmark)** | Dataset creation: task definitions, symbolic verifiers implementations, question generator| 
 | **[moleculariq-eval](https://github.com/ml-jku/moleculariq-eval)** | Evaluation code: integration with lm-eval-harness, model configs, reward functions, extraction functions, and system prompts|
 |**[moleculariqd](https://github.com/ml-jku/moleculariqd)**| Dynamic MolecularIQ version: includes molecule pools from which questions/samples can be created and evaluated on the fly| 
