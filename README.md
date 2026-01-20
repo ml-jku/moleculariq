@@ -7,7 +7,7 @@
 [![Paper](https://img.shields.io/badge/📄-Paper-red)](https://openreview.net/pdf?id=RqwEzZqMFv)
 [![Benchmark dataset creation](https://img.shields.io/badge/🗃️-Benchmark_Dataset_Creation-green)](https://github.com/ml-jku/moleculariq-benchmark)
 [![Evaluation Code](https://img.shields.io/badge/📈-Evaluation_Code-orange)](https://github.com/ml-jku/moleculariq-eval)
-[![MolecularIQD](https://img.shields.io/badge/🧰-MolecularIQD-yellow)](https://github.com/ml-jku/moleculariqd)
+[![MolecularIQD](https://img.shields.io/badge/🧰-MolecularIQD-yellow)](https://github.com/ml-jku/moleculariq-core)
 
 *Characterizing Chemical Reasoning Capabilities Through Symbolic Verification on Molecular Graphs*
 
@@ -39,16 +39,15 @@ Yet, most existing benchmarks emphasize general chemical knowledge, rely on lite
 
 ## 👨‍👧‍👦 MolecularIQ repository family
 
-This repository serves as an entry point to the MolecularIQ ecosystem, covering the [benchmark dataset creation](https://github.com/ml-jku/moleculariq-benchmark), the [leaderboard](https://huggingface.co/spaces/ml-jku/molecularIQ_leaderboard), the [evaluation procedure with lm-eval-harness](https://github.com/ml-jku/moleculariq-eval), and the dynamic version [MolecularIQD](https://github.com/ml-jku/moleculariqd).
+This repository serves as an entry point to the MolecularIQ ecosystem, covering the [benchmark dataset creation](https://github.com/ml-jku/moleculariq-benchmark), the [leaderboard](https://huggingface.co/spaces/ml-jku/molecularIQ_leaderboard), the [evaluation procedure with lm-eval-harness](https://github.com/ml-jku/moleculariq-eval). The dynamic version [MolecularIQD](https://github.com/ml-jku/moleculariq-core) is part of the core package.
 
 | Repository | Purpose | 
 |------------|---------|
 |📍 **[moleculariq](#moleculariq)** | Current repo, overview over different MolecularIQ code bases|
 | **[moleculariq-leaderboard](https://huggingface.co/spaces/ml-jku/molecularIQ_leaderboard)** | Leaderboard: HuggingFace space, displays results, handles submissions |
-| **[moleculariq-core](https://github.com/ml-jku/moleculariq-core)** | Shared library providing core functionality, e.g. symbolic verifiers and question formatting | 
+| **[moleculariq-core](https://github.com/ml-jku/moleculariq-core)** | MoelcuarIQD and shared library providing core functionality, e.g. symbolic verifiers and question formatting | 
 | **[moleculariq-benchmark](https://github.com/ml-jku/moleculariq-benchmark)** | Dataset creation: task definitions, symbolic verifiers implementations, question generator| 
 | **[moleculariq-eval](https://github.com/ml-jku/moleculariq-eval)** | Evaluation code: integration with lm-eval-harness, model configs, reward functions, extraction functions, and system prompts|
-|**[moleculariqd](https://github.com/ml-jku/moleculariqd)**| Dynamic MolecularIQ version: includes molecule pools from which questions/samples can be created and evaluated on the fly| 
 
 ## Citation
 
