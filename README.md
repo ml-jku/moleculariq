@@ -43,7 +43,7 @@ This repository serves as an entry point to the MolecularIQ ecosystem, covering 
 
 | Repository | Purpose | 
 |------------|---------|
-|📍 **[moleculariq](#moleculariq)** | Current repo, overview over different MolecularIQ code bases|
+|📍 **[moleculariq](https://anonymous.4open.science/anonymize/moleculariq-EE40)** | Current repo, overview over different MolecularIQ code bases|
 | **moleculariq-leaderboard** | Leaderboard: HuggingFace space, displays results, handles submissions; please see supplementary material |
 | **[moleculariq-core](https://anonymous.4open.science/r/moleculariq-core-2F02/README.md)** | MoelcuarIQD and shared library providing core functionality, e.g. symbolic verifiers and question formatting | 
 | **[moleculariq-benchmark](https://anonymous.4open.science/r/moleculariq-benchmark-5A40/README.md)** | Dataset creation: task definitions, symbolic verifiers implementations, question generator| 
